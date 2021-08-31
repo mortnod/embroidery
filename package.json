@@ -1,0 +1,26 @@
+{
+  "name": "embroidery",
+  "version": "1.0.0",
+  "description": "An opinionated starter kit powered by Stitches, Next.js, TypeScript, and more",
+  "author": "Morten Noddeland <morten@noddeland.no>",
+  "repository": "https://github.com/mortnod/embroidery.git",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.19",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "typescript": "4.4.2"
+  }
+}
