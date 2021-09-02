@@ -1,4 +1,10 @@
 {
+  // Activate auto-formatting for all supported files
+  "editor.formatOnSave": true,
+
+  // Set Prettier as default formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
   // Fix ESLint errors on save
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
