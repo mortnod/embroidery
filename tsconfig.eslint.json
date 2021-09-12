@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    // Same as tsconfig.json
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    // Extra includes
+    ".eslintrc.js"
+  ]
+}
