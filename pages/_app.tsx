@@ -10,8 +10,7 @@ const globalStyles = globalCss({
 
   'html, body, #__next': {
     height: '100%',
-    fontFamily:
-      'Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif',
+    fontFamily: '$sansSerif',
   },
 });
 

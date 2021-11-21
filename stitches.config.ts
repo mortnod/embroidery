@@ -1,6 +1,9 @@
 import { createStitches } from '@stitches/react';
 
 import colors from './theme/colors';
+import fonts from './theme/fonts';
+import letterSpacings from './theme/letterSpacings';
+import lineHeights from './theme/lineHeights';
 import media from './theme/media';
 import shadows from './theme/shadows';
 import sizes from './theme/sizes';
@@ -19,6 +22,9 @@ export const {
   theme: {
     colors,
     sizes,
+    fonts,
+    letterSpacings,
+    lineHeights,
     space: sizes,
     shadows,
   },
