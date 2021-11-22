@@ -6,6 +6,7 @@
     "**/*.ts",
     "**/*.tsx",
     // Extra includes
-    ".eslintrc.js"
+    ".eslintrc.js",
+    "lint-staged.config.js"
   ]
 }

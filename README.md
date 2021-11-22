@@ -8,13 +8,16 @@
   <br><br><br>
 </div>
 
-## Getting Started
-
-First, run the development server:
+## Installation
 
 ```bash
-npm run dev
-# or
+yarn install
+yarn husky install # Enable running linters on git commit
+```
+
+## Start a dev server
+
+```bash
 yarn dev
 ```
 
