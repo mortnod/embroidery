@@ -1,4 +1,14 @@
-# Getting Started
+<div align="center">
+  <br><br>
+  <img src="extras/embroidery-logo.svg" width="200" height="200">
+  <h1>Embroidery</h1>
+  <p>
+    <b>An opinionated starter kit for creating websites</b>
+  </p>
+  <br><br><br>
+</div>
+
+## Getting Started
 
 First, run the development server:
 
