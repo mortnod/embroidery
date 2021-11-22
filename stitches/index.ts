@@ -1,13 +1,13 @@
 import { createStitches } from '@stitches/react';
 
-import colors from './theme/colors';
-import fonts from './theme/fonts';
-import letterSpacings from './theme/letterSpacings';
-import lineHeights from './theme/lineHeights';
-import media from './theme/media';
-import shadows from './theme/shadows';
-import sizes from './theme/sizes';
-import utils from './theme/utils';
+import colors from './colors';
+import fonts from './fonts';
+import letterSpacings from './letterSpacings';
+import lineHeights from './lineHeights';
+import media from './media';
+import shadows from './shadows';
+import sizes from './sizes';
+import utils from './utils';
 
 export const {
   styled,

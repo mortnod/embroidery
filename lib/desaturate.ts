@@ -1,9 +1,9 @@
 import { desaturate as desaturatePolished } from 'polished';
 
-import { LiteralUnion } from '../types/literalUnion';
-import hasKey from './hasKey';
+import colors from '_stitches/colors';
+import { LiteralUnion } from '_types/literalUnion';
 
-import colors from '../theme/colors';
+import hasKey from './hasKey';
 
 /**
  * Decreases the intensity of a color.

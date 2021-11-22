@@ -1,6 +1,6 @@
-import colors from '../theme/colors';
+import colors from '_stitches/colors';
+import { LiteralUnion } from '_types/literalUnion';
 
-import { LiteralUnion } from '../types/literalUnion';
 import transparentize from './transparentize';
 
 /**
@@ -35,6 +35,7 @@ import transparentize from './transparentize';
                  0 8px 8px rgba(34,197,94,0.33299999999999996)
  * }
  */
+
 const createShadow = (
   size: 'small' | 'medium' | 'large',
   color: LiteralUnion<keyof typeof colors, string>,

@@ -12,7 +12,16 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "baseUrl": ".", // Allow absolute imports. Before: "../../pages/contact". After: "pages/contact"
+    "paths": {
+      "_pages/*": ["pages/*"],
+      "_public/*": ["public/*"],
+      "_stitches": ["stitches/index.ts"],
+      "_stitches/*": ["stitches/*"],
+      "_types/*": ["types/*"],
+      "_lib/*": ["lib/*"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"], // When adding new files, remember to update tsconfig.eslint.json as well
   "exclude": ["node_modules"]

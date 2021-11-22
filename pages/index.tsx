@@ -1,10 +1,9 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
-import { styled } from '../stitches.config';
-
-import createShadow from '../utils/createShadow';
-import desaturate from '../utils/desaturate';
+import { styled } from '_stitches';
+import createShadow from '_lib/createShadow';
+import desaturate from '_lib/desaturate';
 
 const Box = styled('div');
 

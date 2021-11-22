@@ -1,7 +1,8 @@
 import { transparentize as transparentizePolished } from 'polished';
 
-import colors from '../theme/colors';
-import { LiteralUnion } from '../types/literalUnion';
+import { LiteralUnion } from '_types/literalUnion';
+import colors from '_stitches/colors';
+
 import hasKey from './hasKey';
 
 /**

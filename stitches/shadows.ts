@@ -1,4 +1,4 @@
-import createShadow from '../utils/createShadow';
+import createShadow from '_lib/createShadow';
 
 const shadows = {
   small: createShadow('small', 'black', 0.4),
