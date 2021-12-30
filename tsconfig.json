@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
+    "target": "es5", // Specify ECMAScript target version
+    "lib": ["dom", "dom.iterable", "esnext"], // List of library files to be included in the compilation
+    "allowJs": true, // Allow JavaScript files to be compiled
+    "skipLibCheck": true, // Skip type checking of all declaration files
+    "strict": true, // Enable all strict type checking options
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file
+    "noEmit": true, // Do not emit output (meaning do not compile code, only perform type checking)
+    "esModuleInterop": true, // Disables namespace imports (import * as fs from "fs") and enables CJS/AMD/UMD style imports (import fs from "fs")
+    "module": "esnext", // Specify module code generation
+    "moduleResolution": "node", // Resolve modules using Node.js style
+    "resolveJsonModule": true, // Include modules imported with .json extension
+    "isolatedModules": true, // Unconditionally emit imports for unresolved files
     "jsx": "preserve",
     "baseUrl": ".", // Allow absolute imports. Before: "../../pages/contact". After: "pages/contact"
     "paths": {
@@ -24,5 +24,5 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"], // When adding new files, remember to update tsconfig.eslint.json as well
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"] // The files to not type check
 }
