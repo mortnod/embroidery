@@ -5,6 +5,7 @@ import fonts from './fonts';
 import letterSpacings from './letterSpacings';
 import lineHeights from './lineHeights';
 import media from './media';
+import radii from './radii';
 import shadows from './shadows';
 import sizes from './sizes';
 import utils from './utils';
@@ -26,6 +27,7 @@ export const {
     letterSpacings,
     lineHeights,
     space: sizes,
+    radii,
     shadows,
   },
   media,
